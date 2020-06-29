@@ -15,10 +15,9 @@ const Reddit = () => {
         getJoke();
     },[]);
 
-    console.log(joke);
-
     return joke ? (
     <div className="reddit">
+        <h2>Dadjoke of the day</h2>
         <p>{joke.title}</p>
         <p>{joke.selftext}</p>
         </div>

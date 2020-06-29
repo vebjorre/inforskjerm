@@ -15,7 +15,7 @@ const Bikes = () => {
 
     console.log(bikeStations);
     return <div className="BikeStations">
-        <h3>Bysykkel</h3>
+        <h2>Bysykkel</h2>
         {bikeStations.map((stationData)  => (
             <Station key={stationData.id} station={stationData} />
         ))}
