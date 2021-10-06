@@ -7,7 +7,7 @@ const service = createEnturService({ clientName: 'superbur-inforskjermkurs' });
 const Bikes = () => {
     const [bikeStations, setBikeStations] = useState([]);
     useEffect(() => {
-        service.getBikeRentalStationsByPosition({latitude: 59.9289553, longitude: 10.7586829},
+        service.getBikeRentalStationsByPosition({latitude: 59.9481009, longitude: 10.7446228},
             500
             )
             .then((data) => setBikeStations(data));
