@@ -8,7 +8,7 @@ const Bikes = () => {
     const [bikeStations, setBikeStations] = useState([]);
     useEffect(() => {
         service.getBikeRentalStationsByPosition({latitude: 59.9481009, longitude: 10.7446228},
-            2000
+            1000
             )
             .then((data) => setBikeStations(data));
     }, []);
