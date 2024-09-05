@@ -1,9 +1,17 @@
-import React from "react";
 import { DateTime } from "luxon";
+import React, { useEffect, useState } from "react";
+import "./styles/Clock.css";
 
 const Clock = () => {
-    const dateTime = DateTime.local().setLocale("nb-NO");
-    console.log(dateTime);
+    const [dateTime, setDateTime] = useState(DateTime.local().setLocale("nb-NO"));
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setDateTime(DateTime.local().setLocale("nb-NO"));
+        }, 1000);
+        return () => clearInterval(interval);
+    }, []);
+    
     return (
     <div className="clock">
         <h2 className="time">

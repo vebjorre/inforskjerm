@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, { useEffect, useState } from "react";
 
 const APIUrl = "https://www.reddit.com/r/dadjokes/top.json?t=day&limit=1";
 
@@ -17,7 +17,7 @@ const Reddit = () => {
 
     return joke ? (
     <div className="reddit">
-        <h2>Dadjoke of the day</h2>
+        <h2>Dad joke of the day</h2>
         <p>{joke.title}</p>
         <p>{joke.selftext}</p>
         </div>
