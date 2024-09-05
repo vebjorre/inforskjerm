@@ -1,5 +1,5 @@
-import React, { useState, useEffect} from "react";
 import createEnturService from '@entur/sdk';
+import React, { useEffect, useState } from "react";
 
 
 const service = createEnturService({ clientName: 'superbur-inforskjermkurs' });
@@ -19,6 +19,7 @@ const Bikes = () => {
         {bikeStations.map((stationData)  => (
             <Station key={stationData.id} station={stationData} />
         ))}
+        <h4>(Data provided by Entur)</h4>
         </div>;
 };
 
