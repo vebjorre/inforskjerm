@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/infoskjerm/static/css/main.3a980577.css",
-    "main.js": "/infoskjerm/static/js/main.917ec6fa.js",
+    "main.js": "/infoskjerm/static/js/main.a106727d.js",
     "static/media/Silkscreen-Regular.ttf": "/infoskjerm/static/media/Silkscreen-Regular.e7e896209cf39b6670df.ttf",
     "static/media/Orbitron-Regular.ttf": "/infoskjerm/static/media/Orbitron-Regular.1f498717ba081693370a.ttf",
     "index.html": "/infoskjerm/index.html",
     "main.3a980577.css.map": "/infoskjerm/static/css/main.3a980577.css.map",
-    "main.917ec6fa.js.map": "/infoskjerm/static/js/main.917ec6fa.js.map"
+    "main.a106727d.js.map": "/infoskjerm/static/js/main.a106727d.js.map"
   },
   "entrypoints": [
     "static/css/main.3a980577.css",
-    "static/js/main.917ec6fa.js"
+    "static/js/main.a106727d.js"
   ]
 }
